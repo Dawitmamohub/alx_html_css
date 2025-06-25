@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Headphones</title>
-    <link rel="stylesheet" href="7-styles.css">
+    <link rel="stylesheet" href="8-styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -14,7 +14,12 @@
         <header>
             <nav>
                 <img src="./images/logo_headphones.png" alt="Headphones Logo" class="logo">
-                <ul class="nav-links">
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-links" id="navLinks">
                     <li><a href="#">what we do</a></li>
                     <li><a href="#">our results</a></li>
                     <li><a href="#">contact us</a></li>
@@ -169,5 +174,7 @@
             <p class="copyright">©headphones 2020</p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
